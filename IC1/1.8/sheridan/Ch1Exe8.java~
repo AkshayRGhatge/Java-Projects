@@ -1,0 +1,12 @@
+package sheridan;
+public class Ch1Exe8{
+    public static void main(String[] args)
+    {
+        double area,perimeter,radius=5.5;
+        perimeter=2*radius*3.14;
+        area=radius*radius*3.14;
+        System.out.println("Area of a circle is" +area);
+        System.out.println("Perimeter of a circle is" +perimeter);
+        
+    }
+}

@@ -1,0 +1,9 @@
+package sheridan;
+//Declaration of the class PiApproximator
+public class PiApproximator
+{
+    public static void main(String[] args)
+    {
+        
+    }//end of the main method
+}// end of the class PiApproximator
