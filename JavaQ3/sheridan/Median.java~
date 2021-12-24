@@ -1,0 +1,27 @@
+package sheridan;
+import java.util.Scanner;//use for input
+import java.util.Arrays;//use for arrays
+   
+public class Median{
+  
+    
+    public static void main(String[] args){
+        
+     Scanner input=new Scanner(System.in);
+     Median self=new Median();
+     double[] numbox= new double[];
+     double userInput;
+     System.out.println("Enter the value");
+     userInput=input.nextDouble();
+     numbox=new double[userInput];
+      
+    }//end of the main method
+        
+    
+    public double calcMedian(){
+        
+        
+        return 0;
+        
+    }//end of the calcMedian
+}//end of the class
