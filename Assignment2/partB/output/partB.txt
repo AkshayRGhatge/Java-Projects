@@ -1,0 +1,15 @@
+Welcome to DrJava.  Working directory is C:\Users\AKSHAY\Desktop\PROG\Assignment2\partB
+> run sheridan.partB
+Head
+Tail
+Head
+Tail
+Head
+Tail
+Head
+Head
+Tail
+Tail
+The number of the heads is5
+The number of the Tails is5
+> 

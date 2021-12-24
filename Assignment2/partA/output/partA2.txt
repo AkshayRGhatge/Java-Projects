@@ -1,0 +1,8 @@
+Welcome to DrJava.  Working directory is C:\Users\AKSHAY\Desktop\PROG\Assignment2\partA
+> run sheridan.partA
+please enter a dice value from 1 to 6
+ [DrJava Input Box]
+o   o
+  o 
+o   o
+> 
