@@ -1,0 +1,28 @@
+package sheridan;
+public class Dog2{
+    private int _weight;
+    public void setWeight(int weight)
+    {
+        _weight=weight;
+       
+    }
+    public void bark()
+    {
+         if(_weight<30){
+            System.out.print("Small dog bark");
+          }
+         else
+         {
+             System.out.print("Big dog Bark")
+         }
+    }
+    public static void main (String[] args){
+        
+    dog2 one =new dog2();
+    one.setWeight(35);
+    dog2 two=new dog2();
+    two.setWeight(20);
+    one.bark();
+    two.bark();
+    }
+}
