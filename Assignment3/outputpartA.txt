@@ -1,0 +1,11 @@
+Welcome to DrJava.  Working directory is C:\Users\AKSHAY\Desktop\PROG\Assignment3\partA
+> run sheridan.PartA
+Enter one or more integer:
+ [DrJava Input Box]
+The total of all number is:13
+The average of all number is:4.333333333333333
+The number of positive values is:3
+The number of negative values is:1
+The highest number entered is:9
+The lowest number entered is:-5
+> 
