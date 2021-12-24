@@ -1,0 +1,22 @@
+/*forLoopExe2.java is a program that write your name till the number you input 
+ * author:Akshay Ghatge
+ */   
+package sheridan;
+import java.util.Scanner;
+public class forLoopExe2
+{
+    public static void main(String[] args)
+    {
+        int number;
+        Scanner input =new Scanner(System.in);
+        number=int.nextInt();
+        //Declaration and Initialization
+    
+        for(int lineNo=1;lineNo<=number;lineNo++)//for loop use to add number from 1 to 100
+        {
+              System.out.println("Akshay Ghatge");
+            
+        }
+     
+    }//end of the main method
+}//end of the class

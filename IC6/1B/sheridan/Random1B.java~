@@ -1,0 +1,18 @@
+/*Random1B.java is a program that generate a random number from 15.0 to 20.0
+ * author:Akshay Ghatge
+ * */
+package sheridan;
+import java.util.Random;
+public class Random1B{
+    public static void main(String[] args)
+    {
+        Random rnd=new Random();
+        float rndValue;
+        for(rndvalue=15.0;rndValue<=20.0;rndValue++)
+        {
+            rndValue=rnd.nextInt(20.0)+1
+        }
+   
+        System.out.println("Value is:" +rndValue);
+    }
+}

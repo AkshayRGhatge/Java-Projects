@@ -1,0 +1,13 @@
+package sheridan;
+public class forLoopExe1
+{
+    public static void main(String[] args)
+    {
+        int result;
+        for(result=1;result<100;result++)
+        {
+            result=result+result;
+            System.out.println("Addition of the numbers is:"+result);
+        }
+    }
+}
