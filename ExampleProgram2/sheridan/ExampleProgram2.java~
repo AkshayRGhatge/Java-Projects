@@ -1,0 +1,13 @@
+package sheridan;
+
+//Definition of the class ExampleProgram2
+public class ExampleProgram2{
+    {
+    
+    System.out.println("Hello PROG10082");
+    System.out.println("\tThis is \"Java\" programming");    
+    
+    
+    }//end of the main method
+      
+}// end of the ExampleProgram2.java
