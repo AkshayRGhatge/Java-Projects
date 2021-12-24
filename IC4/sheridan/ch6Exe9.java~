@@ -1,0 +1,35 @@
+package sheridan;
+import java.util.Scanner;
+//Declaration of the Class ch6Exe9
+public class ch2Exe9
+{
+    public static void main(String[] args)
+    {
+        double userFeet;
+        double userMeter;
+        double feetToMeter;
+        double meterToFeet;
+        Scanner input=new Scanner(System.in);
+        ch2Exe15 self=new ch2Exe15();
+        
+        System.out.println("Enter the value in feet");
+        userFeet=input.nextDouble();
+        feetToMeter=self.footToMeter(userFeet);
+         System.out.println("Conversion of the feet to meter of("+userFeet+") is" +feetToMeter);
+        System.out.println("Enter the value in meter");
+        userMeter=input.nextDouble();
+        meterToFeet=self.meterToFoot(userMeter);
+        System.out.println("Conversion of the meter to feet of("+userMeter+")is"+meterToFeet);
+    }   
+    public double footToMeter(double feet)
+    {
+        double feetToMeter=0.305*feet;
+        
+        return feetToMeter;
+    }
+    public double meterToFoot(double meter)
+    {
+        double meterToFeet=3.279 * meter;
+        return meterToFeet;
+    }
+}
