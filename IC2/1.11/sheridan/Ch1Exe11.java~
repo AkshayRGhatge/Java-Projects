@@ -1,0 +1,34 @@
+/* Ch1Exe11.java is the program that display the population in each next five year.
+ * author:Akshay Ghatge.
+ */
+package sheridan;
+//Definition of the class Ch1Exe11
+public class Ch1Exe11{
+    public static void main(String[] args)
+    {
+        //Declaration of a variable.
+        double birth=7,death=13,immigrant=45,population=312032486,hour,second,convsectohr,day,bhr,dhr,imghr,year;
+        double secondyear,thirdyear,fouryear,fiveyear;
+        // Calculating the birth in hour
+         bhr=(365*24*3600)/7;
+        //calculating death in hour.
+         dhr=(365*24*3600)/13;
+         //calculating the immigrant in hour
+         imghr=(365*24*3600)/45;
+         //calculating hour population in a day
+         year=population+bhr+imghr-dhr;
+         // calculation day population in a year
+         secondyear=2*year;
+         thirdyear=3*year;
+         fouryear=4*year;
+         fiveyear=5*year;
+         
+         
+        System.out.println("The population for one year is" +year);
+        System.out.println("The population for two year is" +secondyear);
+        System.out.println("The population for third year is" +thirdyear);
+        System.out.println("The population for four year is" +fouryear);
+        System.out.println("The population for five year is" +fiveyear);
+       
+    }//end of the main method
+}//end of the class Ch1Exe12
