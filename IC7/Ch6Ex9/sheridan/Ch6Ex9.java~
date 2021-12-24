@@ -1,0 +1,26 @@
+package sheridan;
+public class Ch6Ex9
+{
+    public static void main(String[] args)
+    {
+        double mtr;
+        double feet;
+        Ch6Ex9 self=new Ch6Ex9();
+        mtr=self.footToMeter();
+        
+    }
+    public double footToMeter()
+    {
+        double meter=0;
+        for(double foot=1;foot<=10;foot++)
+        {
+        meter=0.305 * foot;
+        System.out.println("meter is"+meter);
+        }
+        return meter;
+    }
+   // public double meterToFoot(double meter)
+    {
+        
+    }
+}

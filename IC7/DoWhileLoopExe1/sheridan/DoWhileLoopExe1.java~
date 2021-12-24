@@ -1,0 +1,17 @@
+package sheridan;
+public class DoWhileLoopExe1
+{
+    public static void main(String[] args)
+    {
+        int result=0;
+        int num=1;
+        do
+        {
+            result=result+num;
+          
+            num++;
+                 
+        }while(num<=100);
+         System.out.println("Addition of the number from 1-100:"+result);
+    }
+}
