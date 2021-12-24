@@ -1,0 +1,13 @@
+package sheridan;
+import java.util.Scanner;
+public class FindEquality
+{
+    public static void main(String[] args)
+    {
+        
+    }
+    public boolean isEqual()
+    {
+        
+    }
+}
