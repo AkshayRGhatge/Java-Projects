@@ -1,0 +1,20 @@
+package application;
+import java.util.Scanner;
+
+public class vector2DTest
+{
+    public static void main(String[] args)
+    {
+        Vector2D vec=new Vector2D(2.0,3.0);
+        Scanner input=new Scanner(System.in);
+        
+        
+        System.out.println("Enter the Value of X:");
+        vec.setNumX(vc.nextFloat());
+        System.out.println("Enter the Value of Y:");
+        vec.setNumY(vc.nextFloat());
+        
+        Vector2D vec=new Vector2D(2.0,3.0);
+        public 
+    }
+}

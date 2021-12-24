@@ -1,0 +1,66 @@
+package application;
+public class Vector2D
+{
+    private float _x;
+    private float _y;
+    public Vector2D(float x,float y)
+    {
+        this._x=x;
+        this._y=y;
+    }
+    public float getNumX()
+    {
+        return this._x;
+    }
+    public  void setNum(float newx )
+    {
+        this._x=newx;
+    }
+    public float getNumY()
+    {
+        return this._y;
+    }
+    public float setNum(float newy)    
+    {
+        this._y=newy;
+    }
+    public void magnitude()
+    {
+        
+    }
+}
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        public Circle(double rad,String col){
+    //initialize the field variable 
+    this._radius=rad;
+    this._color=col;
+}//end of the circle method
+      
+public double getRadius(){
+  return this._radius;
+}
+
+public void setRadius(double newRad)
+{
+    this._radius=newRad;
+}
+public String getColor(){
+ return this._color;
+}
+
+public void setColor(String newcol)
+{
+    this._color=newcol;
+}
+}
