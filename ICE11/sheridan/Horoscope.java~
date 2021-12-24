@@ -1,0 +1,11 @@
+public class Horoscope{
+    private String[] prediction;
+    private int[] noofPrediction;
+    public void addPrediction{
+    
+    }
+    public void randomPrediction{
+     
+    }
+    
+}
