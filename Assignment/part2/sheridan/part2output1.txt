@@ -1,0 +1,4 @@
+Welcome to DrJava.  Working directory is C:\Users\AKSHAY\Desktop\PROG\Assignment\part2
+> run sheridan.part2
+Enter the four digit number [DrJava Input Box]
+5   7   8   9> 

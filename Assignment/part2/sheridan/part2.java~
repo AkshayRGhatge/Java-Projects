@@ -1,0 +1,16 @@
+package sheridan;
+import java.util.Scanner;
+public class part2{
+    public static void main(String[] args){
+        int a,b,c,d,e,f,g,h;
+        Scanner input= new Scanner(System.in);
+        System.out.print("Enter the four digit number");
+        a=input.nextInt();
+        
+        b=a/1000;
+        c=a100;
+        System.out.print(c);
+        
+       
+    }
+}

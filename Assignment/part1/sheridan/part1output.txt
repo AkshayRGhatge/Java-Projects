@@ -1,0 +1,10 @@
+Welcome to DrJava.  Working directory is C:\Users\AKSHAY\Desktop\PROG\Assignment\part1
+> run sheridan.part1
+	 AKSHAY
+	       (\\
+	        \||
+	      __(_";
+	  /   \ 
+	   {}__)() 
+	   (rabbit) 
+> 
